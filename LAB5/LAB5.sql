@@ -1,11 +1,22 @@
+/******************************************************************************
+Margret Jaison 
+S5C
+CHN18CS080
+ROLL NO.: 38
+#Question 
+ a.	Create a table class. Fields are name and id
+ b.	Insert values into the table
+ c.	Display the table
+ d.	Apply commit, save point and rollback commands
+********************************************************************************/
 use test;
-#Create a table class. Fields are name and id
+#a 
 CREATE TABLE class (
 id int,
 name varchar(30) );
 
 
-#Insert values into the table
+#b
 
 INSERT INTO class
 VALUES (10,'anna');
@@ -16,11 +27,11 @@ VALUES (11,'minu');
 INSERT INTO class 
 VALUES (12,'rosi');
 
-#Display the table
+#c
 
 SELECT * FROM class;
 
-#Apply commit, save point and rollback commands
+#d
 SET autocommit=0;
 START TRANSACTION;
 
