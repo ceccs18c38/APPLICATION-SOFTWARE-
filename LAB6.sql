@@ -1,3 +1,21 @@
+
+/******************************************************************************
+Margret Jaison 
+S5C
+CHN18CS080
+ROLL NO.: 38
+
+
+#Question 
+ Expt6:Creation of Views and Assertions
+a.Create a table store. Fields are order no, code, item, quantity, price, discount, mrp
+b.Insert values into the table
+c.Display the table
+d. Create a view with item_name and quantity for the above table
+e.Write a query to check whether any changes made to present table is reflected in view.
+f. Write a query to delete a view
+***********************************************************************************/
+
 use lab;
 #a
 CREATE TABLE Store (
