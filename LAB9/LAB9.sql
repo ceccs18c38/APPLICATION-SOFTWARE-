@@ -1,3 +1,19 @@
+/******************************************************************************
+Margret Jaison 
+S5C
+CHN18CS080
+ROLL NO.: 38
+
+#Question 
+ 
+Expt9::Order by and Group by clause
+
+1.Create table employee with fields Code , name , dob , designation , salary  .
+2.Display code, name, and designation in descending order of the name.
+3.Create table deposit with fields baccno , branch_name , amount .
+4.	Give branch name and details of deposit table.
+********************************************************************************/
+
 use lab9;
 #1
 CREATE TABLE Employee(code CHAR(5) PRIMARY KEY,name VARCHAR(70),dob DATE,designation VARCHAR(80),salary FLOAT
