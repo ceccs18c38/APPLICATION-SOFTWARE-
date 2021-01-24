@@ -1,3 +1,17 @@
+/******************************************************************************
+Margret Jaison 
+S5C
+CHN18CS080
+ROLL NO.: 38
+#Question 
+ 
+Expt11
+Write a database trigger that prevent changes to emp table from 
+5pm to 12am(statement level trigger)
+********************************************************************************/
+
+
+
 USE LAB11;
 CREATE TABLE EMPLOYEE (CODE CHAR(10),NAME CHAR(50),DOB DATE NOT NULL,DESIGNATION CHAR(30),SALARY INT);
 INSERT INTO EMPLOYEE VALUES ('A','MONIKA','1973-08-20','PRINCIPAL','100000');
