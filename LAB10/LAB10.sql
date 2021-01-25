@@ -1,3 +1,15 @@
+/******************************************************************************
+Margret Jaison 
+S5C
+CHN18CS080
+ROLL NO.: 38
+#Question 
+
+Expt 10:Write a PL/SQL block to illustrate the use of implicit cursor 
+
+********************************************************************************/
+#code
+
 USE LAB9;
 CREATE TABLE CUR( NAME VARCHAR(70),DOB DATE, SALARY FLOAT);
 DELIMITER //
